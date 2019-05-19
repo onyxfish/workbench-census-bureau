@@ -1,0 +1,28 @@
+id_name: census-bureau
+name: US Census Bureau
+category: Add data
+description: Add data from the US Census Bureau APIs
+help_url: modules/add-data/census-bureau
+loads_data: true
+parameters:
+- id_name: api_key
+  type: string
+  name: API key
+- id_name: dataset
+  type: string
+  name: Dataset (e.g. `cbp` or `acs1`)
+- id_name: vintage
+  type: string
+  name: Dataset vintage (e.g. `2010`)
+- id_name: variables
+  type: string
+  name: Variables (comma-separated list)
+- id_name: for
+  type: string
+  name: For clause (e.g. `county:*`)
+- id_name: in
+  type: string
+  name: In clause (e.g. `state:*`)
+- id_name: version_select
+  type: custom
+  name: Update
