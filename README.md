@@ -4,6 +4,7 @@ A workbench module for creating tables from the [US Census Bureau APIs](https://
 
 ## Wishlist
 
+* Unit tests should not hit the actual API
 * Better error handling for failed requests
 * Convert `fetch` method to use `async/await`
 * Dropdown for common datasets (`cbp`, `acs1`)
