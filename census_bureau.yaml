@@ -10,10 +10,10 @@ parameters:
   name: API key
 - id_name: dataset
   type: string
-  name: Dataset (e.g. `cbp` or `acs1`)
+  name: Dataset (e.g. `cbp` or `acs/acs5`)
 - id_name: vintage
   type: string
-  name: Dataset vintage (e.g. `2010`)
+  name: Dataset vintage (e.g. `2017`)
 - id_name: variables
   type: string
   name: Variables (comma-separated list)
